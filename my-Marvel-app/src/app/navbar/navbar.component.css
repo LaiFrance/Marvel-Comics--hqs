@@ -1,0 +1,52 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  font-size:16px;
+  font-weight:300;
+  text-align:center;
+  height:100%;
+  line-height:40px;
+  overflow:hidden;
+  width:15%;
+  cursor:pointer;
+  background-color: black;
+}
+
+.sidenav{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  height: 100%;
+  line-height: 40px;
+  overflow: hidden;
+  width: 15%;
+  cursor: pointer;
+  background-color: black;
+}
+
+.mat-list-base .mat-list-item {
+  color: rgb(255, 255, 255);
+}
+
+.sidenav:hover:not(.active) {
+  background-color: #555;
+  color: white;
+} 
+
+
+
+.toolbar-single-row {
+background-color:black;
+}
+
+.mat-toolbar.mat-primary {
+  background-image: url(./city.jpg);
+  background-size: cover;
+  background-color: black;
+  position: sticky;
+  height: 150px;
+  border: 10px solid black;
+  
+}

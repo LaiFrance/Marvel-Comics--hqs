@@ -1,0 +1,43 @@
+
+
+img.mat-card-image {
+  border-radius:5px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.mat-flat-button.mat-primary{
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-flat-button.mat-primary:hover {
+  background-color: rgb(223, 13, 13);
+}
+
+.mat-card-title {
+  padding: 5px;
+  background-color: rgba(0, 0, 255, 0.68);
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ng-star-inserted {
+ 
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+
+.ng-star-inserted:hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
